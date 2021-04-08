@@ -1,0 +1,533 @@
+body{
+    font-family: Montserrat;
+    color: white;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    border-radius:5px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+  }
+
+  .parallax-designs{
+      width: 100%;
+      display: inline-block;
+
+  }
+
+  .parallax-1{
+    min-height: 600px;
+    background-image: url("projects/main-texture.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-2{
+    min-height: 600px;
+    background-image: url("projects/store room2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-3{
+    min-height: 600px;
+    background-image: url("projects/common room2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .parallax-4{
+    min-height: 600px;
+    background-image: url("projects/water  tank cartoon.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-5{
+    min-height: 600px;
+    background-image: url("projects/main_front.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-6{
+    min-height: 600px;
+    background-image: url("projects/main with texture-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-7{
+    min-height: 600px;
+    background-image: url("projects/environment-1-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-8{
+    min-height: 600px;
+    background-image: url("projects/walther P22.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-9{
+    min-height: 600px;
+    background-image: url("projects/monster.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-10{
+    min-height: 600px;
+    background-image: url("projects/main-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+  .design{
+      text-align:center;
+      color:white;
+      display:block;
+      font-size:250%;
+      padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:black;
+  }
+
+  .project-design{
+    padding-top:16%;
+
+  }
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 100;
+    margin-top: 0;
+}
+
+.nav-link {
+    display: block;
+    font-weight: bold;
+    font-size: 170%;
+    color: white;
+    margin: 2.5rem 4rem;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: stroke;
+    border-bottom: 2px solid;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid white;
+    border-radius: 50%;
+    border-top: 16px solid white;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.description {
+    margin-top: 10%;
+    animation: fadeInAnimation ease 1s forwards; 
+}
+
+.home {
+    width: 40%;
+    /* margin-top: 5rem; */
+    margin-left: 9%;
+    z-index: 3;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.highlight {
+    position: absolute;
+    z-index:-999;
+    width: 135%;
+    margin-left: -20%;
+    margin-top:-1%;
+    
+}
+.name {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 340%;
+    /* color: #ffffff; */
+    text-align: bottom;
+}
+
+.my-detail {
+    font-weight: normal;
+    font-size: 170%;
+    line-height: 1.5;
+}
+
+.UX {
+    text-align: center;
+    position:relative;
+    font-weight: 900;
+}
+
+.rectangle {
+    position: absolute;
+    /* display: inline-block; */
+    display: none;
+    width: 175px;
+    height: 35%;
+    bottom:5px;
+    left:-1px;
+    
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    margin-left:5rem;
+    margin-top: 1.5rem;
+}
+
+.image-main img {
+    width: 140%;
+}
+
+.ill {
+    z-index: 1;
+    /* padding-left: 20%; */
+}
+
+.shine {
+    z-index: 2;
+    position: absolute;
+    left: 70px;
+    top: -250px;
+    animation: shine 2.5s ease-in-out infinite;
+  }
+
+.shadow {
+    z-index: 4;
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+
+.section {
+    /*
+        display:flex;
+    position: relative;
+    margin-top: 8%;
+    animation: fadeInAnimation ease 1s forwards;*/ 
+    width:50%;
+    text-align: right;
+    float:right;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.section-name {
+    display: inline;
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.project-link {
+    width: 30%;
+}
+
+.line {
+    width: 37%;
+    margin: 0 3%;
+}
+
+
+.project-big {
+    margin-top:3%;
+    width:90%;
+    margin-bottom: 3rem;
+    margin-left: 13%;
+    display: block;
+    margin: 0 5rem;
+    margin: auto;
+}
+
+.project-small {
+    margin-top:3%;
+    width:90%;
+    margin-bottom: 3rem;
+    margin-left: 13%;
+    display: block;
+    margin: 0 5rem;
+    margin: auto;
+}
+
+.clock-image:hover {
+    /* padding: 7px; */
+    padding: 10px 0px 10px 0;
+    background-color: rgba(58, 202, 238, 0.829);
+    /* transform: scale(1.01); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(60, 157, 221, 0.19); */
+    /* width:101%;
+    height:101%; */
+}
+
+.clock-image {
+    width:100%;
+    height:100%;
+    border-radius: 38px;
+    transition: all .2s ease-in-out;
+}
+
+.project-2 {
+    margin-top:3%;
+    width:35%;
+    margin-bottom: 3rem;
+    margin-left: 13%;
+    /* margin-right: auto; */
+}
+
+.morph-image:hover {
+    /* padding: 7px; */
+    padding: 0 0px 10px 0;
+    background-color: rgb(39,164,142,0.7);
+    transform: scale(1.01);
+    /* width:101%;
+    height:101%; */
+}
+
+.morph-image {
+    width:100%;
+    height:100%;
+    border-radius: 27px;
+    transition: all .25s ease-in-out;
+}
+
+#topbackground {
+    position: fixed;
+    bottom: 16px;
+    right: 26px;
+    z-index: 10;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#myBtn {
+    z-index: 100;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#Upimage {
+    z-index: 100;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+  
+#myBtn:hover #topbackground {
+    background-color: #3ec6ea;
+    filter: blur(1px);
+}
+
+#topbackground:hover {
+    background-color: #3ec6ea;
+    filter: blur(1px);
+}
+
+@media (min-width: 1117px) {
+    .project-big {
+        display: block !important;
+         width: 90%;
+         margin: auto;
+         padding: 2%;
+     }
+     .project-small {
+         display: none !important;
+         width: 90%;
+         margin: auto;
+         padding: 2%;
+     }
+
+}
+
+/*@media (max-width: 1117px) {
+    .description {
+        display: flex;
+        flex-flow: column;
+    }
+    .home {
+        order: 2;
+        margin: auto;
+    }
+    .name {
+        font-size: 450%;
+        display: inline-block;
+        width: max-content;
+        margin: auto;
+        margin-left: -20%;
+        margin-top: 40%;
+    }
+    .my-detail {
+        font-size: 260%;
+        width: max-content;
+        margin-left: -34%;
+        text-align: center;
+        margin-top: 15%;
+    }
+    .image {
+        order: 1;
+        margin: auto;
+    }
+    .image-main img {
+        width: 270%;
+        margin-left: -78%;
+        margin-top: 50%;
+    }
+    .ill {
+        z-index: 1;
+        margin: auto;
+        margin-left: -12%;
+    }
+    .shadow {
+        z-index: 4;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        margin-left: -12%;
+    }
+   .project-big {
+       display: none !important;
+        width: 90%;
+        margin: auto;
+        padding: 2%;
+    }
+    .project-small {
+        display: block !important;
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+    }
+}
+*/
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+        transform: translate(0px, 10px);
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translate(0px, 0px);
+     } 
+} 
+
+@keyframes shine {
+    from {
+         top:70%;
+         left:120px;
+    }
+    to {
+        top:-250x;
+        left:-10px;
+    }
+}
+
+
