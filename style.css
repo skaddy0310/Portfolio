@@ -4,6 +4,13 @@ body{
     background-color: black;
 }
 
+
+.no-js #loader { display: none;  }
+
+
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+
 ::-webkit-scrollbar {
     width: 10px;
   }
