@@ -129,6 +129,66 @@ body{
   }
 
 
+  .parallax-11{
+    min-height: 600px;
+    background-image: url("projects/bridge.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-12{
+    min-height: 600px;
+    background-image: url("projects/street.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-13{
+    min-height: 600px;
+    background-image: url("projects/meeting_room.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-14{
+    min-height: 600px;
+    background-image: url("projects/snow.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-15{
+    min-height: 600px;
+    background-image: url("projects/arc_reactor.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-16{
+    min-height: 600px;
+    background-image: url("projects/stormbreaker.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
   .design{
       text-align:center;
       color:white;
