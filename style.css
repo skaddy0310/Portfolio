@@ -189,6 +189,36 @@ body{
 
   }
 
+  .parallax-17{
+    min-height: 600px;
+    background-image: url("projects/lab.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax-18{
+    min-height: 600px;
+    background-image: url("projects/main_egyptian_hall.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .parallax-19{
+    min-height: 600px;
+    background-image: url("projects/cafe.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
   .design{
       text-align:center;
       color:white;
